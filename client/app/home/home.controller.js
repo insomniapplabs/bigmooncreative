@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('ngflbigmoonApp')
-  .controller('HomeCtrl', function ($scope, $location, $anchorScroll, ngDialog, $http) {
+angular.module('bigmooncreativeApp')
+  .controller('HomeCtrl', function ($scope, $location, ngDialog, $http) {
 
     $scope.isCollapsed = true;
 
